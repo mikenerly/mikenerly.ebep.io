@@ -1,0 +1,57 @@
+#top-bar {
+    background-color: #333; /* Background color for the entire row */
+    color: #fff; /* Text color */
+    /*padding: 5px 0; /* Add some padding for spacing */
+    padding-top: 7px;
+    padding-bottom: 5px;
+
+    position: fixed; /* Position absolute to stay at the top */
+    width: 100%; /* Take the entire width */
+    top: 0; /* Positioned at the top of the screen */
+    z-index: 1000; /* Set a higher z-index to ensure it's above other elements */
+}
+
+body {
+    font-weight: 1400;
+    font-style: normal;
+}
+
+.navbar{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+#main {
+    padding-top: 210px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item-1{
+    list-style: none;
+}
+
+.menu-item-2 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /*align-items: flex-end;*/
+}
+
+.line-1 {
+    border-right: 1px solid #fff; /* Divider between two elements */
+    height: 18px; /* Adjust the height of the divider */
+    margin-right: 10px; /* Spacing between the elements and the divider */
+    padding-right: 10px; /* Spacing between the divider and the right element */
+}
+
+.col-md-6 .menu-item-2 li{
+    margin-left: 5px;
+}
