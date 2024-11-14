@@ -1,0 +1,301 @@
+/*Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    height: auto;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    background-color: #ece4e4b4;*/
+}
+
+/*to give the map and width and height*/
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.top-bar {
+    display: flex;
+    background-color: #5c2525c7; /* Set your background color here */
+    color: #fff; /* Set text color */
+    padding: 5px 0; /* Adjust the padding as needed */
+    flex-wrap: wrap;
+}
+
+
+/*===================For the navbar===========================*/
+/* Style for the navigation bar */
+.navbar {
+    background-color: #E0D095; /* Set your desired background color */
+    color: #fff; /* Set your text color */
+    padding: 15px 0; /* Adjust the padding as needed */
+}
+
+/* Style for the logo on the left */
+.navbar-brand {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 20px; /* Adjust the margin as needed */
+    /*font-size: 30px;  Set your desired font size */
+}
+
+.navbar-brand .ebep-name {
+    margin-left: 3px;
+    color: #805555;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+/* Style for the menu items on the right */
+.navbar-nav {
+    margin-left: auto; /* Push the menu items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 0; /* Adjust the margin between menu items as needed */
+}
+
+/* Style for the links in the menu items */
+.navbar-nav .nav-item a {
+    color: rgb(32, 30, 30); /* Set your link text color */
+    font-weight: bold; /* Set your desired font weight */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect for the menu items */
+.navbar-nav .nav-item a:hover {
+    color: #ffcc00; /* Set the hover color as desired */
+}
+
+/*====================Hero section within main===============*/
+
+.hero {
+    /*background: url('your-background-image.jpg') center/cover no-repeat; / Set your background image */
+    /*height: 400px; / Set the desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    /*background: rgba(0, 0, 0, 0.5);  Background overlay */
+    color: rgb(252, 250, 250); /* Text color */
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-logo {
+    flex: 1;
+    max-width: 150px; /* Set your desired logo size */
+}
+
+.hero-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+/* for first content*/
+.card {
+    background: #E0D095;
+}
+
+.article-2 {
+    background: #E0D095;
+}
+
+.card-item {
+    font-size: 14px; /* Set your desired font size */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.card-item i {
+    font-size: 78px; /* Set your desired icon size */
+    margin: 10px 0;
+}
+
+.card-item p {
+    margin-top: 30px;
+}
+
+/*====================Hero section within main===============*/
+
+.hero {
+    /*background: url('your-background-image.jpg') center/cover no-repeat; /* Set your background image */
+    /*height: 400px; /* Set the desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    /*background: rgba(0, 0, 0, 0.5);  Background overlay */
+    color: rgb(252, 250, 250); /* Text color */
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-logo {
+    flex: 1;
+    max-width: 150px; /* Set your desired logo size */
+}
+
+.hero-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+/* for first content*/
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    border-style: none;
+}
+
+.card-item {
+    font-size: 14px; /* Set your desired font size */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.card-item i {
+    font-size: 78px; /* Set your desired icon size */
+    margin: 10px 0;
+}
+
+.card-item p {
+    margin-top: 30px;
+}
+
+/*====================Hero section within main===============*/
+
+.hero {
+    /*background: url('your-background-image.jpg') center/cover no-repeat; / Set your background image */
+    /*height: 400px; / Set the desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    /*background: rgba(0, 0, 0, 0.5);  Background overlay */
+    color: rgb(252, 250, 250); /* Text color */
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-logo {
+    flex: 1;
+    max-width: 150px; /* Set your desired logo size */
+}
+
+.hero-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+/* for first content*/
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    border-style: none;
+}
+
+.card-item {
+    font-size: 14px; /* Set your desired font size */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.card-item i {
+    font-size: 78px; /* Set your desired icon size */
+    margin: 10px 0;
+}
+
+.card-item p {
+    margin-top: 30px;
+}
+
+/*Gallery Section*/
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+    /*width: 33.33%;*/
+    /*float: left;*/
+    
+}
+
+.gallery-row-1 .gallery-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-row-2 .gallery-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /*margin-left: 2px;*/
+}
+
+.section-title-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-gallerie-container {
+    border-radius: 10px;
+}
